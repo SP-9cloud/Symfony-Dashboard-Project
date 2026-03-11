@@ -9,4 +9,5 @@ interface DashboardRepository
     public function save(DashboardRecord $record): void;
 
     public function findAll(): array;
+    
 }
