@@ -38,11 +38,13 @@ class SeedDashboardDataCommand extends Command
                 $this->entityManager->clear();
                 $output->writeln("Inserted $i records");
             }
+            
         }
 
         $this->entityManager->flush();
 
         $output->writeln('Done inserting 100000 records.');
+        
 
         return Command::SUCCESS;
     }
