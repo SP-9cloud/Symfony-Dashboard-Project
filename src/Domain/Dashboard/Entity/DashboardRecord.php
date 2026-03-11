@@ -43,4 +43,5 @@ class DashboardRecord
     {
         return $this->visits;
     }
+    
 }
