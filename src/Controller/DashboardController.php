@@ -22,5 +22,6 @@ class DashboardController extends AbstractController
             'records' => $data,
             'execution_time' => $time
         ]);
+        
     }
 }
